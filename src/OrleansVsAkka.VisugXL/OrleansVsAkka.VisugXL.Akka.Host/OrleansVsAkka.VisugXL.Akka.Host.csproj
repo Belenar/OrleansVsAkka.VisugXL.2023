@@ -7,4 +7,11 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Akka.Cluster" Version="1.5.14" />
+	  <PackageReference Include="Akka.Cluster.Hosting" Version="1.5.13" />
+	  <PackageReference Include="Akka.Hosting" Version="1.5.13" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+	</ItemGroup>
+
 </Project>
